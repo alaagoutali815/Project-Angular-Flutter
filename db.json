@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 4,
+      "firstName": "amen",
+      "lastName": "goutali",
+      "email": "amengoutali@gmail.com",
+      "mobile": "44578220",
+      "salary": "210000"
+    },
+    {
+      "id": 5,
+      "firstName": "miraa",
+      "lastName": "thabet",
+      "email": "miraa@gmail.com",
+      "mobile": "123456",
+      "salary": "12200"
+    },
+    {
+      "id": 6,
+      "firstName": "afifa",
+      "lastName": "tizaoui",
+      "email": "afifatizaoui@gmail.com",
+      "mobile": "22318530",
+      "salary": "500000"
+    },
+    {
+      "id": 7,
+      "firstName": "ons",
+      "lastName": "goutali",
+      "email": "onsgoutali@gmail.com",
+      "mobile": "22315730",
+      "salary": 22
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

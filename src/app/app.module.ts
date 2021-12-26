@@ -5,9 +5,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { EmployeesComponent } from './employees/employees.component';
-import { AdminComponent } from './admin/admin.component';
-import { AuthentificationComponent } from './authentification/authentification.component';
+import { EmployeeDashboardComponent } from './employee-dashboard/employee-dashboard.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
+import { ToggleComponent } from './toggle/toggle.component';
+import { RoutesComponent } from './routes/routes.component';
+import { ChartsComponent } from './routes/charts/charts.component';
+import { LoginComponent } from './routes/login/login.component';
+import { RegisterComponent } from './routes/register/register.component';
+import { PasswordComponent } from './routes/password/password.component';
+
 
 
 
@@ -15,9 +23,15 @@ import { AuthentificationComponent } from './authentification/authentification.c
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeesComponent,
-    AdminComponent,
-    AuthentificationComponent,
+    EmployeeDashboardComponent,
+    NavbarComponent,
+    ToggleComponent,
+    RoutesComponent,
+    ChartsComponent,
+    LoginComponent,
+    RegisterComponent,
+    PasswordComponent,
+ 
  
   
     
@@ -25,6 +39,8 @@ import { AuthentificationComponent } from './authentification/authentification.c
   imports: [
     BrowserModule,
     AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   
   ],
   providers: [],
