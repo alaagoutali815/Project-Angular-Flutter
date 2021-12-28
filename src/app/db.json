@@ -1,0 +1,12 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nameprojet": "mean",
+      "deadline": "2021-12-28",
+      "hour": 12,
+      "affect": "oussema",
+      "company": "prososft cloud"
+    }
+  ]
+}
