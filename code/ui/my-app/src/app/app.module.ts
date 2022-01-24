@@ -14,6 +14,7 @@ import { ProjetsComponent } from './projets/projets.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +22,7 @@ import { ProjetsComponent } from './projets/projets.component';
     DepartmentComponent,
     EmployeeComponent,
     ProjetsComponent,
+   
 
   ],
   imports: [

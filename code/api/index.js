@@ -1,5 +1,7 @@
 var Express = require("express");
 var bodyParser = require("body-parser");
+//const userRouteur = require('./routes/users');
+//app.use ('/api/auth',userRouteur);
 
 var app =Express();
 app.use(bodyParser.json());
@@ -18,6 +20,8 @@ app.use('/Photos',Express.static(__dirname+'/Photos'));
 
 var cors = require('cors')
 app.use(cors())
+
+
 
 
 var DATABASE = "meanappemployee";
@@ -269,3 +273,5 @@ app.post('/api/projet/savefile',(request,response)=>{
     }
     )
 })
+
+
